@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, inintial-scale=1.0">
+        <title>Tennis Champions</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pattaya&family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/1f1a9679d9.js" crossorigin="anonymous"></script>
+
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/tennis.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">Inschrijven</a></li>
+                    <li><a href="">Toernooi Scheduler</a></li>
+                    <li><a href="">Bardienst</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Overons</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Tennis Champions Club</h1>
+        <p>Onze dynamische tennisvereniging is gevestigd op het tennispark Startbaan. De vereniging telt momenteel ruim 750 leden in alle leeftijden, waarvan 20% jeugdleden.<br>Activiteiten en initiatieven zijn er in eerste instantie op gericht om onze leden plezier te laten beleven aan het tennis. Het park heeft twaalf gravel buitenbanen met verlichting, een mini-tennisbaan en vijf binnenbanen.<br> Het complex is gelegen op een centrale locatie in Amstelveen en voorzien van veel groen. Naast het park ligt een groot parkeerterrein waar gratis geparkeerd kan worden.<br> Het park is ook goed bereikbaar met openbaar vervoer.</p>
+        <a href="" class="hero-btn"><span>Meldt u hier aan</span></a>
+    </div>
+    
+    </section>
+
+<!-------COURSE------->
+    <section class="course">
+        <h1>Play With Champions</h1>
+        <p>YOU ONLY LIVE ONCE BUT YOU GET TO SERVE TWiCE<br>Whether you’ve never picked up a racquet, are coming off a successful collegiate tennis career or want to get back into the sport after a break, the Woodside Tennis community offers lessons, clinics, leagues and social events to get you into the swing of things immediately (pun intended).
+
+            Our members continually push themselves to be better, learn more, be more competitive on the court and have more fun, alongside coaches and other players that encourage a sense of community, connection and collaboration. Check out our tennis social calendar and come out for the next Games Night, Adult or Junior Clinic, or swing a paddle at the next Pickleball Tournament.</p>
+        <br>
+        <br>
+        <div class="row">
+            <div class="course-col">
+                <h3>Jeugd Tennis</h3>
+                <p>From their very first clinic and fun summer camps, to competitive USTA Junior Team Tennis, Woodside Junior Tennis offers something for each youth player.</p>
+                <h3>Volwassen Tennis</h3>
+                <p>From their very first clinic and fun summer camps, to competitive USTA Junior Team Tennis, Woodside Junior Tennis offers something for each youth player.</p>
+                <a href=""><span id="viewmore">Bekijk meer</span></a>
+            </div>
+            <br>
+            <br>
+            <div class="course-col">
+                <h3>Inschrijven</h3>
+                <h5>Informatie en voorwaarden betreffende het lidmaatschap van LTC Startbaan.</h5>
+                <p>Het contactadres voor alle onderwerpen m.b.t. het lidmaatschap is: <a style="color: #oo51ff" href="  " rel="stylesheet">ledenadministratie@ltcstartbaan.nl</a> Yolanda Steenbruggen</p>
+            </div>
+            
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+<!-------JAVASCRIPT VOOR MENU---------->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+<!-------JAVASCRIPT VOOR MENU----------->
+
+    <div class="sidebar-agenda"></div>
+
+</body>
+
+</html>
