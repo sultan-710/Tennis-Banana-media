@@ -1,16 +1,39 @@
-.contact img {
-   width: 15px; 
+.h1 {
+    
 }
-.adres {
-    text-align: left;
+.contacta img {
+   width: 15px;    
+}
+.contacta {
+    
+}
+.openingstijdena {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.adresa {
 
 }
-.adres iframe {
-    width: 350px;
-    height: 350px;
-    float: right;
+.contactb img {
+    width: 15px;
 }
-.contact {
-    color: ;
+.contactb {
+
 }
+.openingstijdenb {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.adresb {
+
+}
+.contactc {
+    width: 15px;
+}
+.contactc {
+
+}
+.openingstijdenc {
+    font-weight: bolder;
+    font-size: 20px;
 }
